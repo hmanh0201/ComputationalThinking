@@ -1,55 +1,42 @@
-* commit 54d890d7d525d22194d6ec9c9fc2d5d21438dd09
+* commit 0b4fcdb74cc8d50a988c7cdcfc6ba57340dfc07a
 | Author: hmanh0201 <minhanhbmt07@gmail.com>
-| Date:   Fri Oct 23 20:08:21 2026 +0700
+| Date:   Wed Oct 28 14:51:32 2026 +0700
 | 
-|     complete HW of Week 02
+|     completed course Pandas
 | 
-|  25125001_W02_11/.idea/.gitignore                  |   3 -
-|  25125001_W02_11/.idea/25125001_W02_11.iml         |   8 ---
-|  .../inspectionProfiles/profiles_settings.xml      |   6 --
-|  25125001_W02_11/.idea/misc.xml                    |   7 ---
-|  25125001_W02_11/.idea/modules.xml                 |   8 ---
-|  25125001_W02_11/.idea/vcs.xml                     |   6 --
-|  .../{Screenshot 2026-10-17 174711.png => AC.png}  | Bin
-|  .../{Screenshot 2026-10-17 183819.png => AC.png}  | Bin
-|  25125001_W02_11/Exercise05/Exercise05.py          |  11 ++--
-|  25125001_W02_11/Exercise06/AC.png                 | Bin 0 -> 59619 bytes
-|  25125001_W02_11/Exercise06/Exercise06.py          |  39 ++++++++++++
-|  25125001_W02_11/Exercise07/AC.png                 | Bin 0 -> 60134 bytes
-|  25125001_W02_11/Exercise07/Exercise07.py          |  55 +++++++++++++++++
-|  25125001_W02_11/Exercise08/Exercise08.py          |  35 +++++++++++
-|  25125001_W02_11/Exercise08/ac.png                 | Bin 0 -> 53713 bytes
-|  25125001_W02_11/Exercise09/Exercise09.py          |  42 +++++++++++++
-|  25125001_W02_11/Exercise09/ac.png                 | Bin 0 -> 76295 bytes
-|  25125001_W02_11/Exercise10/Exercise10.py          |  64 ++++++++++++++++++++
-|  25125001_W02_11/Exercise10/ac.png                 | Bin 0 -> 75580 bytes
-|  25125001_W02_11/Exercise11/Exercise11.md          |   3 +
-|  25125001_W02_11/Exercise11/Exercise11.pdf         | Bin 0 -> 37270 bytes
-|  25125001_W02_11/readme.md                         |   3 +
-|  22 files changed, 245 insertions(+), 45 deletions(-)
+|  .../001-exercise-creating-reading-and-writing.ipynb  |   1 +
+|  .../002-exercise-indexing-selecting-assigning.ipynb  |   1 +
+|  .../003-exercise-summary-functions-and-maps.ipynb    |   1 +
+|  .../004-exercise-grouping-and-sorting.ipynb          |   1 +
+|  .../005-exercise-data-types-and-missing-values.ipynb |   1 +
+|  .../006-exercise-renaming-and-combining.ipynb        |   1 +
+|  .../Exercise02/Ho\303\240ng Minh Anh - Pandas.png"   | Bin 0 -> 886529 bytes
+|  7 files changed, 6 insertions(+)
 | 
-* commit 9050e21db3889a8ed6f8b351182dc5ca7c4f470e
+* commit b9f6755698686e0b71e7a4469c7ea73f905f493c
+| Author: hmanh0201 <minhanhbmt07@gmail.com>
+| Date:   Tue Oct 27 21:08:13 2026 +0700
+| 
+|     Completed the course Intro to Machine Learning
+| 
+|  25125001_W02_11/GitCommitLog.md                   |  55 ++++++++++++++++++++
+|  .../001-exercise-explore-your-data.ipynb          |   1 +
+|  ...ercise-your-first-machine-learning-model.ipynb |   1 +
+|  .../003-exercise-model-validation.ipynb           |   1 +
+|  ...04-exercise-underfitting-and-overfitting.ipynb |   1 +
+|  .../Exercise01/005-exercise-random-forests.ipynb  |   1 +
+|  ...6-exercise-machine-learning-competitions.ipynb |   1 +
+|  ...40ng Minh Anh - Intro to Machine Learning.png" | Bin 0 -> 887298 bytes
+|  25125001_W03_04/GitCommitLog.md                   |  55 ++++++++++++++++++++
+|  25125001_W03_04/readme.md                         |   3 ++
+|  exercise-explore-your-data.ipynb                  |   1 -
+|  11 files changed, 119 insertions(+), 1 deletion(-)
+| 
+* commit 5e6fc680c53f3f8963f1776ef2a59f43aa29d184
   Author: hmanh0201 <minhanhbmt07@gmail.com>
-  Date:   Tue Oct 20 15:26:10 2026 +0700
+  Date:   Tue Oct 27 19:08:19 2026 +0700
   
-      complete Exercise 01 -> 05 of week 02
+      Kaggle Notebook | Exercise: Explore Your Data | Version 1
   
-   25125001_W02_11/.idea/.gitignore                  |   3 ++
-   25125001_W02_11/.idea/25125001_W02_11.iml         |   8 ++++
-   .../inspectionProfiles/profiles_settings.xml      |   6 +++
-   25125001_W02_11/.idea/misc.xml                    |   7 ++++
-   25125001_W02_11/.idea/modules.xml                 |   8 ++++
-   25125001_W02_11/.idea/vcs.xml                     |   6 +++
-   25125001_W02_11/Exercise01/Exercise01.py          |   4 ++
-   .../Exercise01/Screenshot 2026-10-17 174711.png   | Bin 0 -> 51692 bytes
-   25125001_W02_11/Exercise02/Exercise02.py          |  17 +++++++++
-   .../Exercise02/Screenshot 2026-10-17 183819.png   | Bin 0 -> 60829 bytes
-   25125001_W02_11/Exercise03/Exercise03.py          |  40 ++++++++++++++++++++
-   25125001_W02_11/Exercise03/ac.png                 | Bin 0 -> 50381 bytes
-   25125001_W02_11/Exercise04/AC.png                 | Bin 0 -> 55062 bytes
-   25125001_W02_11/Exercise04/Exercise04.py          |  11 ++++++
-   25125001_W02_11/Exercise05/AC.png                 | Bin 0 -> 51671 bytes
-   25125001_W02_11/Exercise05/Exercise05.py          |  27 +++++++++++++
-   25125001_W02_11/GitCommitLog.md                   |   0
-   25125001_W02_11/readme.md                         |   0
-   18 files changed, 137 insertions(+)
+   exercise-explore-your-data.ipynb | 1 +
+   1 file changed, 1 insertion(+)
